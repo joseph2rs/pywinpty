@@ -45,10 +45,10 @@ install:
 # Not a .NET project, we build in the install step instead
 build: false
 
-test_script:
+#test_script:
   #- "%CMD_IN_ENV% ciocheck winpty --disable-tests"
   #- "conda remove pytest-xdist"
-  - "%CMD_IN_ENV% pytest winpty --cov=winpty -v"
+#  - "%CMD_IN_ENV% pytest winpty --cov=winpty -v"
 #  - "%CMD_IN_ENV% coveralls"
 #  - "%CMD_IN_ENV% codecov"
 
